@@ -140,3 +140,68 @@ footer hr{
   display:block;
   margin: 20px auto;
 }
+.avaliacoes{
+    max-width:700px;
+    margin:50px auto;
+    padding:30px;
+    background:#0f2f73;
+    border-radius:20px;
+}
+
+.form-avaliacao input,
+.form-avaliacao select,
+.form-avaliacao textarea{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.form-avaliacao textarea{
+    height:120px;
+    resize:none;
+}
+
+#enviar{
+    width:100%;
+    padding:15px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#enviar:hover{
+    transform:scale(1.02);
+}
+.card-avaliacao{
+
+    background:white;
+    padding:20px;
+    margin-top:20px;
+
+    border-radius:15px;
+
+    color:black;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.card-avaliacao h3{
+
+    color:#2563eb;
+
+}
+
+.card-avaliacao p{
+
+    margin:8px 0;
+
+}
