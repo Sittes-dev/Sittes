@@ -78,3 +78,7 @@ async function carregarAvaliacoes() {
 }
 
 carregarAvaliacoes();
+
+document.getElementById("botaoSecreto").addEventListener("click", () => {
+  window.location.href = "login.html";
+});

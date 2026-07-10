@@ -205,3 +205,122 @@ footer hr{
     margin:8px 0;
 
 }
+.login-box{
+
+    width:350px;
+    max-width:90%;
+
+    margin:100px auto;
+
+    background:#0f2f73;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+}
+
+.login-box h2{
+
+    color:white;
+
+}
+
+.login-box input{
+
+    width:100%;
+
+    padding:14px;
+
+    margin:10px 0;
+
+    border:none;
+
+    border-radius:10px;
+
+    box-sizing:border-box;
+
+}
+
+.login-box button{
+
+    width:100%;
+
+    padding:14px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+}
+
+#erro{
+
+    color:#ffb3b3;
+
+    margin-top:15px;
+
+}
+.painel-card{
+
+    background:white;
+    color:black;
+
+    padding:20px;
+
+    margin:20px 0;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+.btn-excluir{
+
+    margin-top:15px;
+
+    background:#e53935;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+}
+
+.btn-excluir:hover{
+
+    background:#c62828;
+
+}
+.botaoSecreto {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  appearance: none;
+}
