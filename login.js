@@ -1,3 +1,8 @@
+if (sessionStorage.getItem("adminAcesso") !== "ok") {
+
+    window.location.href = "index.html";
+
+}
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
 
 import {
